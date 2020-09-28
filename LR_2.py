@@ -12,8 +12,8 @@ import pandas as pd
 
 
 
-file = "../frappe_new.train2.csv"
-file3 = "../frappe_new.test2.csv"
+file = "./frappe_new.train2.csv"
+file3 = "./frappe_new.test2.csv"
 train = pd.read_csv(file)
 test = pd.read_csv(file3)
 
